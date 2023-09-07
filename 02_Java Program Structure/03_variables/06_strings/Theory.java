@@ -4,6 +4,7 @@ Learn Java: Variables
 String
 
 So far, we have learned primitive data types, which are the simplest types of data with no built-in behavior.
+==> https://www.codecademy.com/resources/docs/java/data-types
 Our programs will also use Strings, which are objects, instead of primitives. Objects have built-in behavior.
 
 Strings hold sequences of characters.
@@ -27,6 +28,7 @@ Keep Reading: AP Computer Science A Students
 
 Certain symbols, known as escape sequences, have an alternative use in Java print statements.
 Escape sequences are interpreted differently by the compiler than other characters.
+==> https://www.codecademy.com/resources/docs/java/compiler
 Escape characters begin with the character \.
 
 There are three escape sequences to be aware of for the AP exam.
