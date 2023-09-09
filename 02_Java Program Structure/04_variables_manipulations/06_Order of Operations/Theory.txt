@@ -2,6 +2,9 @@ Learn Java: Manipulating Variables
 Order of Operations
 
 If we were to place multiple operators in a single expression, what operation would the compiler evaluate first?
+==> https://www.codecademy.com/resources/docs/java/operators
+==> https://www.codecademy.com/resources/docs/java/compiler
+
 
 int num = 5 * (10 - 4) + 4 / 2;
 
