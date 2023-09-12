@@ -14,7 +14,10 @@ The first line, public void checkBalance(), is the method declaration.
 It gives the program some information about the method:
 
     public means that other classes can access this method. We will learn more about that later in the course.
+    ==> https://www.codecademy.com/resources/docs/java/classes
     The void keyword means that there is no specific output from the method.
+    ==> https://www.codecademy.com/resources/docs/java/output
+    ==> https://www.codecademy.com/resources/docs/java/methods
     We will see methods that are not void later in this lesson, but for now, all of our methods will be void.
     checkBalance() is the name of the method.
 
@@ -25,6 +28,7 @@ The two print statements are inside the body of the method, which is defined by 
 
 Anything we can do in our main() method, we can do in other methods!
 All of the Java tools you know, like the math and comparison operators, can be used to make interesting and useful methods.
+==> https://www.codecademy.com/resources/docs/java/operators
 
 Keep Reading: AP Computer Science A Students
 
@@ -56,4 +60,6 @@ System.out.println("The name of this dog is " + dogName + "!");
 /*
 Make sure to write your print statements within the curly braces of the advertise() method!
 Concept Review
-Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet! */
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/learn-java-object-oriented-java-u/cheatsheet
+*/
