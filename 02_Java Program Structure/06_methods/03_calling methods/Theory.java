@@ -1,9 +1,12 @@
 /*Learn Java: Methods
 Calling Methods
 
-When we add a non-static method to a class, it becomes available to use on an object of that class. In order to have our methods get executed, we must call the method on the object we created.
+When we add a non-static method to a class, it becomes available to use on an object of that class.
+In order to have our methods get executed, we must call the method on the object we created.
+==> https://www.codecademy.com/resources/docs/java/methods
 
-Let’s add a non-static startEngine() method to our Car class from the previous lesson. Inside the main() method, we’ll call startEngine() on the myFastCar object:
+Let’s add a non-static startEngine() method to our Car class from the previous lesson.
+Inside the main() method, we’ll call startEngine() on the myFastCar object:
 */
 
 
@@ -34,17 +37,24 @@ class Car {
 myFastCar.startEngine();
 
 /*
-First, we reference our object myFastCar. Then, we use the dot operator (.) to call the method startEngine(). Note that we must include parentheses () after our method name in order to call it.
+First, we reference our object myFastCar.
+Then, we use the dot operator (.) to call the method startEngine().
+Note that we must include parentheses () after our method name in order to call it.
 
 If we run the above program, we will get the following output.
+==> https://www.codecademy.com/resources/docs/java/output
 
 Starting the car!
 Vroom!
 That was one fast car!
 
-Code generally runs in a top-down order where code execution starts at the top of a program and ends at the bottom of a program; however, methods are ignored by the compiler unless they are being called.
+Code generally runs in a top-down order where code execution starts at the top of a program and ends at the bottom of a program;
+however, methods are ignored by the compiler unless they are being called.
+==> https://www.codecademy.com/resources/docs/java/output
 
-When a method is called, the compiler executes every statement contained within the method. Once all method instructions are executed, the top-down order of execution continues. This is why Starting the car! and Vroom! are outputted before That was one fast car!.
+When a method is called, the compiler executes every statement contained within the method.
+Once all method instructions are executed, the top-down order of execution continues.
+This is why Starting the car! and Vroom! are outputted before That was one fast car!.
 Instructions
 1.
 
@@ -55,6 +65,9 @@ We now have a Store class with advertise() defined.
 Call the advertise() method on the lemonadeStand object in the main() method and see what the output is!
 2.
 
-Now, call the advertise() method on the lemonadeStand object two more times. It should be called in the main() method three times total.
+Now, call the advertise() method on the lemonadeStand object two more times.
+It should be called in the main() method three times total.
 Concept Review
-Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet! */
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/learn-java-object-oriented-java-u/cheatsheet
+*/
