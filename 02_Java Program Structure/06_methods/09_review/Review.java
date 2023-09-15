@@ -23,9 +23,7 @@ Instructions
 Now that we’ve learned about behavior, we can apply behavior to our SavingsAccount class using methods!
 
 We’ve added the functionality for each method inside main() now, but you will be rebuilding each above main().
-Note that your methods can directly access the balance field.
-
-First, write a method called checkBalance() that prints:
+Note that your methods can directly access the balance field.First, write a method called checkBalance() that prints:
 
 Hello!
 Your balance is
