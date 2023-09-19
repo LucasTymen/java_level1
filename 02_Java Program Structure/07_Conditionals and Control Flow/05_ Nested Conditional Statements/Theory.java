@@ -34,6 +34,7 @@ if (temp < 60) {
 
 /*
 In the code snippet above, our compiler will check the condition in the first if-then statement: temp < 60.
+==> https://www.codecademy.com/resources/docs/java/compiler
 Since temp has a value of 45, this condition is true; therefore, our program will print Wear a jacket!.
 
 Then, we’ll evaluate the condition of the nested if-then statement: raining == true.
