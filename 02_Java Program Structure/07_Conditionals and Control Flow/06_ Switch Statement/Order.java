@@ -25,6 +25,7 @@ public class Order {
     double shippingCost;
 	 	// declare switch statement here
     switch (shipping) {
+
       case "Regular":
       shippingCost = 0;
       break;
