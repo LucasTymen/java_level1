@@ -17,6 +17,7 @@ if (flip == 1) {
     The parentheses hold a boolean datatype.
 
 For the condition in parentheses we can also use variables that reference a boolean, or comparisons that evaluate to a boolean.
+==> https://www.codecademy.com/resources/docs/java/variables
 
 The boolean condition is followed by opening and closing curly braces that mark a block of code.
 This block runs if, and only if, the boolean is true.
@@ -68,4 +69,6 @@ if (condition) {
 
 Concept Review
 Want to quickly review some of the concepts you’ve been learning?
-Take a look at this material's cheatsheet! */
+Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/learn-java-conditionals-control-flow-u/cheatsheet
+*/
