@@ -5,12 +5,16 @@ Importing Arrays
 When we printed out the array we created in the last exercise, we saw a memory address that did not help us understand what was contained in the array.
 
 If we want to have a more descriptive printout of the array itself, we need a toString() method that is provided by the Arrays package in Java.
+==> https://www.codecademy.com/resources/docs/java/arrays
+*/
 
 import java.util.Arrays;
 
+/*
 We put this at the top of the file, before we even define the class!
 
 When we import a package in Java, we are making all of the methods of that package available in our code.
+==> https://www.codecademy.com/resources/docs/java/methods
 
 The Arrays package has many useful methods, including Arrays.toString().
 When we pass an array into Arrays.toString(), we can see the contents of the array printed out:
@@ -42,4 +46,5 @@ To use it, we first must import the Arrays package from java.util. Import the pa
 Now that you have the Arrays package, use its toString() method to print out the topics array in the main() method.
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==>https://www.codecademy.com/learn/learn-java/modules/learn-java-arrays-and-arraylists/cheatsheet
 */
