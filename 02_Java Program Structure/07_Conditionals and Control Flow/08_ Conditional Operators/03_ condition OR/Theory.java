@@ -30,6 +30,7 @@ The OR operator, ||, is used between two boolean values and evaluates to a singl
 If either of the two values is true, then the resulting value is true, otherwise the resulting value is false.
 
 This code illustrates every combination:
+*/
 
 true || true
 // true
@@ -40,6 +41,7 @@ true || false
 false || false
 // false
 
+/*
 Keep Reading: AP Computer Science A Students
 
 On some occasions, the compiler can determine the truth value of a logical expression by only evaluating the first boolean operand;
