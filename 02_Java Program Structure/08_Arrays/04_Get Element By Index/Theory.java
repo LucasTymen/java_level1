@@ -16,9 +16,11 @@ This command would print:
 
 15.87
 
-This happens because 15.87 is the item at the 1 index of the array. Remember, the index of an array starts at 0 and ends at an index of one less than the number of elements in the array.
+This happens because 15.87 is the item at the 1 index of the array.
+Remember, the index of an array starts at 0 and ends at an index of one less than the number of elements in the array.
 
 If we try to access an element outside of its appropriate index range, we will receive an ArrayIndexOutOfBoundsException error.
+==> https://www.codecademy.com/resources/docs/java/errors/arrayindexoutofboundsexception
 
 For example, if we were to run the command System.out.println(prices[5]), we’d get the following output:
 
@@ -41,7 +43,8 @@ But wait — we added more to the Newsfeed class. Now, each instance starts with
 
 Every time someone views a topic, we want to increment the value of the appropriate field in views.
 
-For example, if someone views an "Opinion" piece, we want to increase the value of the 0th index of views from 0 to 1. If they view it again, we want to increase the value to 2.
+For example, if someone views an "Opinion" piece, we want to increase the value of the 0th index of views from 0 to 1.
+If they view it again, we want to increase the value to 2.
 
 We have written a method signature for viewTopic(), which takes in an int called topicIndex.
 
@@ -53,4 +56,5 @@ numCats = numCats + 1;
 /*
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/learn-java-arrays-and-arraylists/cheatsheet
 */
