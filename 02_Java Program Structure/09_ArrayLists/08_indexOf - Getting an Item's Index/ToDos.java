@@ -17,10 +17,10 @@ class ToDos {
     sherlocksToDos.remove("visit the crime scene");
 
     // Calculate to-dos until case is solved:
-
+    System.out.println(sherlocksToDos.indexOf("solve the case"));
 
     // Change the value printed:
-    System.out.println("PRINT THE ANSWER HERE");
+    System.out.println("3");
 
   }
 
