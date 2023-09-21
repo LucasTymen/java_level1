@@ -2,7 +2,8 @@
 Learn Java: Arrays
 Length
 
-What if we have an array storing all the usernames for our program, and we want to quickly see how many users we have? To get the length of an array, we can access the length field of the array object:
+What if we have an array storing all the usernames for our program, and we want to quickly see how many users we have?
+To get the length of an array, we can access the length field of the array object:
 */
 
 String[] menuItems = new String[5];
