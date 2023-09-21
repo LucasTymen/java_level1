@@ -1,0 +1,32 @@
+Learn Java: ArrayLists
+Review
+
+Nice work! You now know the basics of ArrayLists including:
+
+    Creating an ArrayList.
+    Adding a new ArrayList item using add().
+    Accessing the size of an ArrayList using size().
+    Finding an item by index using get().
+    Changing the value of an ArrayList item using set().
+    Removing an item with a specific value using remove().
+    Retrieving the index of an item with a specific value using indexOf().
+
+==> https://www.codecademy.com/resources/docs/java/array-list
+
+
+Now if only there were some way to move through an array or ArrayList, item by item…
+Instructions
+
+We’ve included a workspace for you to test out your newfound knowledge of arrays and ArrayLists.
+
+Remember: To run your code, enter the following commands in the terminal:
+
+javac List.java
+
+and then:
+
+java List
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/learn-java-arrays-and-arraylists/cheatsheet
