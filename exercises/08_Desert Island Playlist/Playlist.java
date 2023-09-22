@@ -26,6 +26,19 @@ class Playlist {
     desertIslandPlaylist.remove(5);
     System.out.println(desertIslandPlaylist.size());
     System.out.println(desertIslandPlaylist);
+
+    //defining the 2 swapping songs
+    System.out.println(desertIslandPlaylist.indexOf("Highway Star"));
+    System.out.println(desertIslandPlaylist.indexOf("The Emerald"));
+
+    // creating tempA and tempB
+    String tempA = "Highway Star";
+    String tempB = "The Emerald";
+
+    // doing the swapping
+    desertIslandPlaylist.set(1, "The Emerald");
+    desertIslandPlaylist.set(2, tempA);
+    System.out.println(desertIslandPlaylist);
   }
 
 }
