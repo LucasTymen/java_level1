@@ -12,7 +12,11 @@ class LuckyFive {
     int dieRoll = randomGenerator.nextInt(6) + 1;
 
     // Repeat while roll isn't 5
-
+    while (dieRoll != 5){
+      dieRoll = randomGenerator.nextInt(6) + 1;
+      System.out.println("roll, baby roll");
+      System.out.println(dieRoll);
+    }
 
   }
 
