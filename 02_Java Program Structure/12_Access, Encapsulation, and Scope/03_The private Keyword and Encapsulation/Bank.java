@@ -12,7 +12,6 @@ public class Bank{
     System.out.println(bankOfGods.accountOne.name);
     bankOfGods.accountOne.addFunds(5);
     bankOfGods.accountOne.getInfo();
-
   }
 
 }

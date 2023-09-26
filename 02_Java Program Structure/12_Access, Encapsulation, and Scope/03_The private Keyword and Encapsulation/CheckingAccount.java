@@ -16,6 +16,9 @@ public class CheckingAccount{
   }
 
   public static void main(String[] args){
+    CheckingAccount myAccount = new CheckingAccount("Lisa", 2000);
+    myAccount.addFunds(5);
+    System.out.println(myAccount.balance);
 
   }
 
