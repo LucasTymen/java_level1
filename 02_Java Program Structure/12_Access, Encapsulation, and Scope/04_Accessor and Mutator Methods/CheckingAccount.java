@@ -9,6 +9,12 @@ public class CheckingAccount{
     id = inputId;
   }
 
-  //Write new methods here:
+  public int getBalance(){
+    return balance;
+  }
+
+  public void setBalance(int newBalance){
+    balance = newBalance;
+  }
 
 }
