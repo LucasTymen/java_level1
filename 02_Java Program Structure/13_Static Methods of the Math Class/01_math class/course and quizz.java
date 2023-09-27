@@ -72,6 +72,7 @@ Useful Methods
 
 There are many useful methods from the Math class that can be implemented in our programs. For those of us taking the AP Computer Science A exam, the following methods and their descriptions will be available in the Java Quick Reference Guide:
 int abs(int x)
+==> https://apstudents.collegeboard.org/ap/pdf/ap-computer-science-a-java-quick-reference_0.pdf
 
 Purpose: Returns the absolute value of an int value
 
@@ -217,6 +218,8 @@ Additional Methods
 
 The examples above aren’t the only methods available in the Math class! To see all the methods offered by the Math class, check out the official documentation for the Math class.
 Multiple choice
+==> https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
+
 
 Which of the following options is not a method in the Math class?
 
