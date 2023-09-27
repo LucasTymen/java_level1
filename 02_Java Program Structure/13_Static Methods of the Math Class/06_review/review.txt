@@ -13,6 +13,9 @@ To review, here are some of the main takeaways about static methods and variable
     Static methods cannot interact with non-static instance variables. This is due to static methods not having a this reference.
     Both static methods and non-static methods can interact with static variables.
 
+==> https://www.codecademy.com/resources/docs/java/methods
+==> https://www.codecademy.com/resources/docs/java/variables
+
 Instructions
 
 We’ve given you the complete code for your ATM class.
