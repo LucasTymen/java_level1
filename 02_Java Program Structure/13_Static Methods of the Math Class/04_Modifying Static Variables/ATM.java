@@ -10,12 +10,16 @@ public class ATM{
     this.money = inputMoney;
 
     // Steps 1 and 2: Edit numATMs and total money here
+    numATMs += 1;
+    totalMoney += inputMoney;
+
   }
 
   public void withdrawMoney(int amountToWithdraw){
     if(amountToWithdraw <= this.money){
       this.money -= amountToWithdraw;
       // Step 3: Edit totalMoney here
+      totalMoney = totalMoney - amountToWithdraw;
     }
   }
 
