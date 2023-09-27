@@ -22,5 +22,7 @@ public class CheckingAccount{
   }
 
   // Write the calculateNextMonthInterest() here
-
+  private double calculateNextMonthInterest(){
+    return this.interestRate * this.balance;
+  }
 }
