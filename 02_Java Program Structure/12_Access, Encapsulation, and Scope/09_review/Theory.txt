@@ -1,0 +1,24 @@
+Access, Encapsulation, and Scope
+Review
+
+Nice work!
+In this lesson, we dove into some of the more subtle features of classes with a focus on access, encapsulation, and scope.
+Here are some of the main takeaways from this lesson:
+==> https://www.codecademy.com/resources/docs/java/classes
+==> https://www.codecademy.com/resources/docs/java/methods
+==> https://www.codecademy.com/resources/docs/java/constructors
+==> https://www.codecademy.com/resources/docs/java/variables
+
+    The public and private keywords are used to define what parts of code have access to other classes, methods, constructors, and instance variables.
+    Encapsulation is a technique used to keep implementation details hidden from other classes. Its aim is to create small bundles of logic.
+    The this keyword can be used to designate the difference between instance variables and local variables.
+    Local variables can only be used within the scope that they were defined in.
+    The this keyword can be used to call methods when writing classes.
+
+Instructions
+
+We’ve given you our full code for our Bank and CheckingAccount classes.
+Feel free to continue to experiment with the public and private keywords to get a better understanding of what code has access to certain structures.
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+==> https://www.codecademy.com/learn/learn-java/modules/java-access-encapsulation-and-static-methods/cheatsheet
