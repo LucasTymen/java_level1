@@ -22,10 +22,10 @@ public class Noodle {
   }
 
   public static void main(String[] args) {
-
+    protected
     Ramen yasaiRamen = new Ramen();
-    //System.out.println(yasaiRamen.ingredients);
-    System.out.println(yasaiRamen.isTasty());
+    System.out.println(yasaiRamen.ingredients);
+
 
   }
 
