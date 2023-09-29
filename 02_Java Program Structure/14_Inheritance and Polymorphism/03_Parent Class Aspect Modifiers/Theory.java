@@ -1,4 +1,4 @@
-Inheritance and Polymorphism
+/* Inheritance and Polymorphism
 Parent Class Aspect Modifiers
 
 You may recall that Java class members use private and public access modifiers to determine whether they can be accessed from outside the class.
@@ -9,6 +9,7 @@ But there is another access modifier we can use to keep a parent class member ac
 public is visible everywhere; protected is visible in the class, the package, and child classes;
 a member with no modifier is visible in the class and package;
 private is visible only in the class itself Here’s what protected looks like in use:
+*/
 
 class Shape {
 
@@ -18,6 +19,7 @@ class Shape {
 
 // any child class of Shape can access perimeter
 
+/*
 In addition to access modifiers, there’s another way to establish how child classes can interact with inherited parent class members: using the final keyword.
 If we add final after a parent class method’s access modifier, we disallow any child classes from changing that method.
 This is helpful in limiting bugs that might occur from modifying a particular method.
@@ -38,9 +40,9 @@ Change the access modifier for ingredients so that Ramen (not just any Java file
 You can use protected for this.
 
 If you uncomment the following line in the code, you’ll see the result:
-
+*/
 System.out.println(yasaiRamen.ingredients);
-
+/*
 Checkpoint 2 Step instruction is unavailable until previous steps are completed
 
 2.
@@ -52,3 +54,4 @@ That person clearly doesn’t know food; all noodles are definitely tasty.
 Remove the method from Ramen and add a final keyword to isTasty() in Noodle so that nobody changes this method in any other Noodle child class again.
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+*/
