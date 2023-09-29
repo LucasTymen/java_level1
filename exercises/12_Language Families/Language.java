@@ -18,7 +18,16 @@ class Language {
   }
 
   public static void main(String[] args) {
+    // spanish object
     Language spanish = new Language("Spanish", 555000000,"Spain, Latin America, and Equatorial Guinea", "subject-verb-object");
     spanish.getInfo();
+
+    // mayan object1
+    Mayan kiche = new Mayan("Ki'che'", 2330000);
+    kiche.getInfo();
+
+    // mayan object2
+    Mayan chontal = new Mayan("Chontal", 60563);
+    chontal.getInfo();
   }
 }
