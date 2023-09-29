@@ -4,7 +4,7 @@ public class Debug {
 
     int steps = 10;
 
-    for (int i = 0; i <= steps; i++) {
+    for (int i = 0 /* i must start on 1 */; i <= steps; i++) {
 
       System.out.println("Step #" + i);
 
