@@ -3,9 +3,11 @@ Exceptions
 
 In the last exercise when we were dealing with run-time errors, you might’ve noticed a new word in the error message: “Exception”.
 
-Java uses exceptions to handle errors and other exceptional events. Exceptions are the conditions that occur at runtime and may cause the termination of the program.
+Java uses exceptions to handle errors and other exceptional events.
+Exceptions are the conditions that occur at runtime and may cause the termination of the program.
 
-When an exception occurs, Java displays a message that includes the name of the exception, the line of the program where the exception occurred, and a stack trace. The stack trace includes:
+When an exception occurs, Java displays a message that includes the name of the exception, the line of the program where the exception occurred, and a stack trace.
+The stack trace includes:
 
     The method that was running
     The method that invoked it
