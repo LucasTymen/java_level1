@@ -29,5 +29,13 @@ class Language {
     // mayan object2
     Mayan chontal = new Mayan("Chontal", 60563);
     chontal.getInfo();
+
+    // chinese object
+    SinoTibetan mandarin = new SinoTibetan("Mandarin Chinese", 1110000000);
+    mandarin.getInfo();
+
+    // Burmese object
+    SinoTibetan burmese = new SinoTibetan("Burmese", 43000000);
+    burmese.getInfo();
   }
 }
