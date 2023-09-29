@@ -4,12 +4,14 @@ Child Classes in Arrays and ArrayLists
 
 Usually, when we create an array or an ArrayList, the list items all need to be the same type.
 But polymorphism puts a new spin on what is considered the same type…
-==> https://www.codecademy.com/resources/docs/java/array-list
+==> https://www.codecademy.com/resources/docs/java/array-list (The ArrayList class uses dynamic arrays for storing elements.
+Conceptually, it is like an array but with no size limit.)
 
 In fact, we can put instances of different classes that share a parent class together in an array or ArrayList!
 For example, let’s say we have a Monster parent class with a few child classes: Vampire, Werewolf, and Zombie.
 We can set up an array with instances of each:
-==> https://www.codecademy.com/resources/docs/java/classes
+==> https://www.codecademy.com/resources/docs/java/classes : The ArrayList class uses dynamic arrays for storing elements.
+Conceptually, it is like an array but with no size limit.
 */
 
 Monster dracula, wolfman, zombie1;
