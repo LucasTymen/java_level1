@@ -9,17 +9,22 @@ public class Introduction {
 				{60, 62, 64, 66, 68, 70, 79}
 		};
 		// Store the number of subarrays of intMatrix into a variable called 'numSubArrays'
+    int numSubArrays = intMatrix.length;
 
 		// Store the length of the subarrays using the first subarray in intMatrix. Store it in a variable called subArrayLength.
+		int subArrayLength = intMatrix[0].length;
+    System.out.println(subArrayLength);
 
 		// Store the number of columns in intMatrix into a variable called 'columns'
+		columns = subArrayLength;
 
 		// Store the number of rows in intMatrix into a variable called 'rows'
+		rows = numSubArrays;
 
 		// Replace the outer and inner for loop headers to iterate through the entire 2D array. Use the iterators `i` for the outer loop and `j` for the inner loop.
 		int sum = 0;
-		for(int i=-1; i<-1; i--) {
-			for(int j = -1; j < -1; j--) {
+		for(int i=-1; i<-1; i++ {
+			for(int j = -1; j < -1; j++ {
 				// Insert a line of code to increase the variable `sum` by each accessed element
 
 			}
