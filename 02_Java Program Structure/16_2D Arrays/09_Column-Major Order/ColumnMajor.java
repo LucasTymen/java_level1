@@ -5,16 +5,17 @@ public class ColumnMajor {
 
 		// Replace the incorrect for loop headers, use the iterators 'outer' and 'inner' for the outer and inner loops
 		double lapTime = 0.0;
-		for(int outer = -1; outer < -1; outer++){
+		for(int outer = 0; outer < times[0].length; outer++){
 			lapTime = 0.0;
-			for(int inner = -1; inner < -1; inner++){
+			for(int inner = 0; inner < times.length; inner++){
 				System.out.println("Lap index: " + outer + ", Time index: " + inner);
 				// Enter the missing line of code to sum up the values in each column. Use the variable lapTime
-
+        lapTime += times[inner][outer];
 
 			}
 			// Enter the missing line of code to find the average time of each lap. Use the variable averageVal
 			double averageVal = 0;
+      averageVal = lapTime / times.length;
 
 			System.out.println("Sum of lap " + outer + " times: " + lapTime);
 			System.out.println("Average time for lap " + outer + ": " + averageVal);
