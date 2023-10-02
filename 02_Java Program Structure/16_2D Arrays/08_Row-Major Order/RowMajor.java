@@ -5,16 +5,18 @@ public class RowMajor {
 
 		// Replace the incorrect for loop headers, use the iterators 'outer' and 'inner' for the outer and inner loops
 		double runnerTime = 0.0;
-		for(int outer = -1; outer < -1; outer++) {
+		for(int outer = 0; outer < times.length; outer++) {
 			runnerTime = 0.0;
-			for(int inner = -1; inner < -1; inner++) {
+			for(int inner = 0; inner < times[outer].length; inner++) {
+        //runnerTime += times[outer][inner];
         System.out.println("Runner index: " + outer + ", Time index: " + inner);
 				// Enter the missing line of code to sum up the values in each row. Use the variable runnerTime
-
+				runnerTime += times[outer][inner] ;
 
 			}
 			// Enter the missing line of code to find the average time of each runner. Use the variable averageVal
       double averageVal = 0;
+      averageVal = runnerTime / times[outer].length;
 
 			System.out.println("Sum of runner " + outer + " times: " + runnerTime);
 			System.out.println("Average of runner " + outer + ": " + averageVal);
