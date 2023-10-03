@@ -21,12 +21,22 @@ public class Review {
 
 
   //Using loops, copy all of the scores for exam 1 and 2 into the new 2D array. (do not include the -1 values)
-
+  for(int i=0; i<newScores.length; i++){
+    for(int j=0; j<newScores[i].length; j++){
+      newScores[i][j] = scores[i][j];
+    }
+  }
 
   System.out.println(Arrays.deepToString(newScores));
 
   //You have allowed the students to complete an extra credit activity to contribute towards their scores. For all exam grades less than 90, add 2 additional points to the grade in `newScores`
-
+  for(int i = 0; i < newScores.length; i++){
+    for(int j = 0; j < newScores[i].length; j++){
+      if(newScores[i][j] < 90){
+        newScores[i][j] += 2;
+      }
+    }
+  }
 
   System.out.println(Arrays.deepToString(newScores));
 	}
